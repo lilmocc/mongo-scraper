@@ -1,0 +1,31 @@
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Articles</title>
+    <style>
+      input {
+        display: block;
+        height: 36px;
+        width: 200px;
+        font-size: 24px;
+      }
+      textarea {
+        width: 200px;
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/submit" method="post">
+    <h1>Hi!</h1>
+    <h2>Enter a Note</h2>
+      <input type="text" name="title" placeholder="Title">
+      <textarea type="text" name="body">Write Note Here</textarea>
+
+      <input type="submit">
+      <a href="/articles">See articles</a>
+      <a href="/notes">See notes</a>
+    </form>
+
+  </body>
+</html>
